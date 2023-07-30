@@ -1,0 +1,139 @@
+.header-area {
+    padding: 10px 0;
+    background: teal;
+    position: relative;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+    color: #ffff;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner css  */
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.banner img {
+    position: relative;
+}
+.banner:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: .78;
+    z-index: -1;
+}
+.banner-items {
+    padding-top: 19%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 9999;
+}
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+/* team-items  css  */
+.our-team {
+    background-color: aqua;
+}
+.team-items  img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+.team-items h5 {
+    text-transform: capitalize;
+}
+
+/* about-items css  */
+.image-items img {
+    width: 100%;
+}   
+
+.title-about p {
+    width: 30%;
+    margin: 0 auto;
+}
+/* contact us css  */
+.title-items p {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/* contact area start  */
+iframe {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+form textarea {
+    width: 100%;
+    height: 150px;
+}
+/* foooter css  */
+.footer-area {
+    padding: 30px;
+    background-color: rgb(16, 26, 233);
+}
